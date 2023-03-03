@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES2019",
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "types": ["jest", "node"],
+    "typeRoots": ["../node_modules/@types"]
+  },
+  "references": [{ "path": "../common" }],
+  "include": ["src/**/*", "src/**/*.json"],
+  "exclude": ["src/**/*.test.ts"]
+}

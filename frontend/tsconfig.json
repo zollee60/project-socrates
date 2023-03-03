@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "incremental": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "typeRoots": ["../node_modules/@types"],
+    "jsx": "react",
+    "sourceMap": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "target": "ES2021",
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["@types/node"]
+  },
+  "references": [{ "path": "../common" }],
+  "include": ["src/**/*", "src/**/*.json"],
+  "exclude": ["src/**/*.test.ts"]
+}

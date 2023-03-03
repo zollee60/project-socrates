@@ -1,0 +1,7 @@
+{
+  "references": [{ "path": "./common" }, { "path": "./frontend" }, { "path": "./backend" }],
+  "include": [],
+  "compilerOptions": {
+    "strict": true,
+  }
+}
